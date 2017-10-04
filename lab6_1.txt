@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import math
 def plowa(a,b,c):
     p=(a+b+c)/2
