@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import math
 def syma(p,r,t):
     d=r/100 
