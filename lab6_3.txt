@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+def roku(s,r,p):
+    i=0
+    while s<p:
+        s=s+s*(r/100)
+        i=i+1
+    return i
+s1 = input('Vvedit6 po4atkovy symy ')
+r1 = input('Vvedit6 kil6kist6 vidsotkiv ')
+p1 = input('Vvedit6 kincevy symy ')
+
+s=int(s1)
+r=int(r1)
+p=int(p1)
+
+ 
+print('Dany symy vu otrumaete 4erez ',roku(s,r,p),' rokiv')
