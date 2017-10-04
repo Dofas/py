@@ -1,0 +1,12 @@
+import math
+
+p1=input('zadaite po4atkovy symy')
+r1=input('zadaite vidsotok zrostann9')
+t1=input('zadaite kil6kist6 rokiv')
+p=int(p1)
+r=int(r1)
+t=int(t1)
+d=r/100 #кароче тут тіпа будуть задавати у відсотках а нам треба дробом шоб було число того ділим на 100
+y=(1+d)**t
+a = p*y
+print('Syma  = ',a)

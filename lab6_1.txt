@@ -1,0 +1,11 @@
+import math
+
+a1=input('zadaite 1wy storony trukytnuka')
+b1=input('zadaite 2gy storony trukytnuka')
+c1=input('zadaite 3ty storony trukytnuka')
+a=int(a1)
+b=int(b1)
+c=int(c1)
+p=(a+b+c)/2
+s=math.sqrt(p*(p-a)*(p-b)*(p-c))
+print('Plowa trukytnuka = ',s)
